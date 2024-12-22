@@ -6,8 +6,9 @@
 | Function       | Status                                                         | 
 |------------------|---------------------------------------------------------------------|
 | record messges while on other tabs    |✅                   |
+| record messges while lock screen    |✅                   |
 | notifications premissions required| ⚠️            |
-| record messages while offline  | ❌       |
+| record messages while sleep  | ❌       |
 
 >  audioRecognition_V2.js
 

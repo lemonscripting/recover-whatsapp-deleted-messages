@@ -106,3 +106,5 @@ function addDeletedMessagesButton() {
 }
 
 addDeletedMessagesButton();
+
+//TODO: each timestamp can only be recorded in once. use set interval 100ms
