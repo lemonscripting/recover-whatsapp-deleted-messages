@@ -45,7 +45,7 @@ function showBanner() {
     header.style.marginBottom = '20px';
 
     const title = document.createElement('h2');
-    title.textContent = 'Recent Messages [V-Beta-1.0]';
+    title.textContent = 'giselicious pro [V-Beta-1.0]';
     header.appendChild(title);
 
     const closeButton = document.createElement('div');
