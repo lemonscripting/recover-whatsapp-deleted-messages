@@ -1,0 +1,33 @@
+{
+    "manifest_version": 3,
+    "name": "Giselicious Pro",
+    "version": "1.0",
+    "description": "Your whatsapp web assistant giselicious pro.",
+    "action": {
+      "default_icon": "icon.png",
+      "default_popup": "https://example.com/"
+    },
+    "permissions": [
+      "storage",
+      "tabs",
+      "activeTab",
+      "contextMenus",
+      "notifications",
+      "bookmarks",
+      "history",
+      "management",
+      "privacy",
+      "idle",
+      "webRequest",
+      "geolocation",
+      "scripting",
+      "identity"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["*://web.whatsapp.com/*"],
+        "js": ["main.js", "settings.js", "status.js"]
+      }
+    ]
+  }
+  
